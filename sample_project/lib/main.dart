@@ -33,9 +33,16 @@ class HomeScreen extends StatelessWidget {
               Row(
                 children: [
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(),
-                      Row(),
+                      const Text('Overall'),
+                      Row(
+                        children: const [
+                          Text('2129th',style: TextStyle(fontWeight: FontWeight.bold),),
+                          Text(' in Total'),
+                        ],
+                      ),
+
                     ],
                   )
                 ],
@@ -43,9 +50,10 @@ class HomeScreen extends StatelessWidget {
               Row(
                 children: [
                   Column(
-                    children: [
-                      Row(),
-                      Row(),
+                    children: const [
+                      Text('Last Week'),
+                      Text('50th of the week'),
+
                     ],
                   )
                 ],
