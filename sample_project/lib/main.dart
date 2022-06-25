@@ -14,58 +14,212 @@ class HomeScreen extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Courses'),
         ),
-        body: Container(
-          margin: const EdgeInsets.fromLTRB(20, 20, 0, 0),
-          height: 200,
-          width: 320,
-          decoration: BoxDecoration(
-              color: Colors.cyanAccent,
-              border: Border.all(
-                color: Colors.black,
-                style: BorderStyle.solid,
-                width: 2,
-              ),
-              borderRadius: const BorderRadius.only(
-                topRight: Radius.circular(50),
-              )),
+        body: SizedBox(
+          width: double.infinity,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Row(
-                children: [
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text('Overall'),
-                      Row(
-                        children: const [
-                          Text('2129th',style: TextStyle(fontWeight: FontWeight.bold),),
-                          Text(' in Total'),
-                        ],
-                      ),
-
-                    ],
-                  )
-                ],
+              Container(
+                height: 200,
+                width: 320,
+                decoration: BoxDecoration(
+                    color: Colors.cyanAccent,
+                    border: Border.all(
+                      color: Colors.black,
+                      style: BorderStyle.solid,
+                      width: 2,
+                    ),
+                    borderRadius: const BorderRadius.only(
+                      topRight: Radius.circular(50),
+                    )),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text('Overall'),
+                            Row(
+                              children: const [
+                                Text(
+                                  '2129th',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                                Text(' in Total'),
+                              ],
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Column(
+                          children: const [
+                            Text('Last Week'),
+                            Text('50th of the week'),
+                          ],
+                        )
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
-              Row(
-                children: [
-                  Column(
-                    children: const [
-                      Text('Last Week'),
-                      Text('50th of the week'),
-
-                    ],
-                  )
-                ],
+              Container(
+                height: 200,
+                width: 320,
+                decoration: BoxDecoration(
+                    color: Colors.cyanAccent,
+                    border: Border.all(
+                      color: Colors.black,
+                      style: BorderStyle.solid,
+                      width: 2,
+                    ),
+                    borderRadius: const BorderRadius.only(
+                      topRight: Radius.circular(50),
+                    )),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text('Overall'),
+                            Row(
+                              children: const [
+                                Text(
+                                  '2129th',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                                Text(' in Total'),
+                              ],
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Column(
+                          children: const [
+                            Text('Last Week'),
+                            Text('50th of the week'),
+                          ],
+                        )
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
-              Row(
-                children: [
-                  Column(),
-                  Column(),
-                  Column(),
-                  Column(),
-                  Column(),
-                ],
+              Container(
+                height: 200,
+                width: 320,
+                decoration: BoxDecoration(
+                    color: Colors.cyanAccent,
+                    border: Border.all(
+                      color: Colors.black,
+                      style: BorderStyle.solid,
+                      width: 2,
+                    ),
+                    borderRadius: const BorderRadius.only(
+                      topRight: Radius.circular(50),
+                    )),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text('Overall'),
+                            Row(
+                              children: const [
+                                Text(
+                                  '2129th',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                                Text(' in Total'),
+                              ],
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Column(
+                          children: const [
+                            Text('Last Week'),
+                            Text('50th of the week'),
+                          ],
+                        )
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                        Column(
+                          children: const [Icon(Icons.account_box), Text('YOU')],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
